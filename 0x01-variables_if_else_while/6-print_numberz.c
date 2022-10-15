@@ -3,15 +3,14 @@
  * main - Entry point
  * Return: Always 0 (success)
  */
-
 int main(void)
 {
 	int c;
-	
+
 	c = 0;
-	while 
+	while
 		(c < 10) {
-			putchar(c + '0');
+			putchar(c + 'a');
 			c++;
 		}
 	putchar('\n');
