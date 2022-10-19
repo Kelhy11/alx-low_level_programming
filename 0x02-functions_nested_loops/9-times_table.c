@@ -4,7 +4,7 @@
  * times_table - print the 9 times table
  */
 
-void times_table(voi)
+void times_table(void)
 {
 	int i, j, k, first, last;
 
